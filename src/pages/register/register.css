@@ -1,0 +1,52 @@
+.login {
+     height: calc(100vh - 50px);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-image: linear-gradient(rgba(225,225,225,0.5),rgba(225,225,225,0.5)), url("../../images/austin-distel-744oGeqpxPQ-unsplash.jpg");
+     background-size: cover;
+}
+
+.loginTitle {
+    font-size: 50px;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px 0px
+}
+
+.loginInput {
+    padding: 10px;
+    border-color: white;
+    border: none;
+}
+
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginRegisterButton {
+    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
