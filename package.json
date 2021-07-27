@@ -1,0 +1,28 @@
+{
+  "name": "luco",
+  "version": "1.0.0",
+  "description": "luco blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liubomyr22/first-full-stack-app.git"
+  },
+  "keywords": [
+    "luco",
+    "blog"
+  ],
+  "author": "luco",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.12"
+  }
+}
